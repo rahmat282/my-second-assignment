@@ -286,3 +286,163 @@
 
     /* footer styles start here */
 }
+
+
+
+
+
+
+/* responsive for medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    /* header styles */
+    nav ul {
+        gap: 20px;
+    }
+
+    .banner-main-container {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .banner-info-container {
+        max-width: 100%;
+        margin-top: 80px;
+    }
+
+    .banner-heading {
+        max-width: 80%;
+    }
+
+    .banner-img-div {
+        text-align: center;
+    }
+
+    .overlap-lower-card {
+        bottom: 150px;
+        left: 110px;
+    }
+
+    .overlap-upper-card {
+        top: 80px;
+        right: 150px;
+    }
+
+    .banner-img-div #overlap-play-btn {
+        bottom: 300px;
+        left: 130px;
+    }
+
+    /* header styles end here */
+    /* change habit section styles start from here */
+    .change-habit-cards-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .change-habit-main-container,
+    .extra-mile-main-container,
+    .optional-section-main-container {
+        margin: 84px 20px 72px 20px;
+    }
+
+    /* change habit section styles end here */
+    /* extra mile section styles start from here */
+    .extra-mile-main-container {
+        gap: 70px;
+    }
+
+    .extra-mile-info-container {
+        width: 70%;
+    }
+
+    .extra-mile-info-container .btn-primary {
+        width: 85%;
+    }
+
+    .extra-mile-img {
+        padding-top: 25px;
+        transform: scale(4) translateX(-25px) translateY(20px);
+    }
+
+    /* extra mile section styles end here */
+    /*optional and calculator section styles start from here */
+    .optional-info-container {
+        max-width: 100%;
+        margin-left: 20px;
+    }
+
+    .calculator-info-container {
+        max-width: 80%;
+        margin-left: 20px;
+    }
+
+    .calculator-flex-container {
+        margin: 46px 0px;
+        flex-direction: column;
+        padding-left: 30px;
+        gap: 62px;
+    }
+
+    input[type="text"],
+    select {
+        width: 47%;
+    }
+
+    #activity-factor {
+        width: 565px;
+    }
+
+    /* calculator section styles end here  */
+
+    .meet-team-main-container {
+        max-width: 80%;
+    }
+
+    .all-trainer-grid-container {
+        padding: 0 20px;
+        margin: 20px;
+        max-width: 100%;
+    }
+
+    .my-own {
+        display: none;
+    }
+
+    /* footer section styles start from here  */
+    .footer-grid-container {
+        margin-top: 76px;
+        padding: 66px 20px 0 20px;
+        display: block;
+        position: relative;
+    }
+
+    .footer-div-one {
+        max-width: 60%;
+        margin: 20px;
+        padding-bottom: 100px;
+    }
+
+    .footer-div {
+        margin-left: 20px;
+        padding-left: 20px;
+    }
+
+    #res-for-tab {
+        position: absolute;
+        left: 60%;
+        bottom: 1%;
+    }
+
+    .footer-copyright {
+        padding: 40px 0;
+    }
+
+    footer hr {
+        padding-top: 70px;
+    }
+
+    /* footer section styles end here  */
+}
